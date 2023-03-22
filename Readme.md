@@ -1,6 +1,6 @@
 # CutInImageRecorder
 
-![CutInImageRecorder](https://i.gyazo.com/b90629e76f46a361d14a1946dae27f59.png)
+![出力例](./Assets/output.webp)
 
 ## About
 Untiyのカメラ映像をAPNG,GIF,WebPの各型式のアニメーションテクスチャとして保存するアドオンです。
@@ -9,6 +9,7 @@ Untiyのカメラ映像をAPNG,GIF,WebPの各型式のアニメーションテ�
 
 ## HowToUse
 ![CutInImageRecorder](https://i.gyazo.com/27c794fe16dd4349f15e7419f0243601.png)
+![CutInImageRecorder](https://i.gyazo.com/b90629e76f46a361d14a1946dae27f59.png)
 1. Hierarchyを右クリックし、Video>ImageRecorderを選択。
 2. Unity上部の「▷」マークをクリックしてSceneをPlay状態にする。
 3. ImageRecorderのCutInImageRecorderコンポーネントの「Record」ボタンをおして動画撮影開始。
