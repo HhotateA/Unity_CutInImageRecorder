@@ -8,7 +8,7 @@ Untiyのカメラ映像をAPNG,GIF,WebPの各型式のアニメーションテ�
 他動画作成ツールよりUnityの方が使い慣れてるぜ！って方、Unityの資産を活かしたい方向け
 
 ## HowToUse
-![CutInImageRecorder](https://i.gyazo.com/27c794fe16dd4349f15e7419f0243601.png)
+![CutInImageRecorder](https://i.gyazo.com/6ca121b20b11156ec81b309000d64ca1.png)
 ![CutInImageRecorder](https://i.gyazo.com/b90629e76f46a361d14a1946dae27f59.png)
 1. Hierarchyを右クリックし、Video>ImageRecorderを選択。
 2. Unity上部の「▷」マークをクリックしてSceneをPlay状態にする。
