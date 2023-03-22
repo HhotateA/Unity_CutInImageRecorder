@@ -1,4 +1,6 @@
-# About
+# CutInImageRecorder
+
+## About
 Untiyのカメラ映像をAPNG,GIF,WebPの各型式のアニメーションテクスチャとして保存するアドオンです。
 作者が、ココフォリア（https://ccfolia.com/）の演出を作製する為に作製しました。
 他動画作成ツールよりUnityの方が使い慣れてるぜ！って方、Unityの資産を活かしたい方向け
@@ -32,3 +34,6 @@ url:https://sourceforge.net/projects/apng2gif/
 virsion:libwebp-1.3.0-windows-x64
 lisence:https://www.webmproject.org/license/software/
 url:https://developers.google.com/speed/webp/download?hl=ja
+
+## Auther
+@HhotateA_xR 20230322
