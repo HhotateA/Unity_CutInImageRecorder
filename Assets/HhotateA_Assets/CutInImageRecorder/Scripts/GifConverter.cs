@@ -9,7 +9,7 @@ namespace HhotateA.ImageRecorder
         public static void Convert(string inputPath, string outputPath)
         {
             var ps = new ProcessStartInfo();
-            ps.FileName = Path.Combine(Application.dataPath, "HhotateA_Assets/CutInImageRecorder/apng2gif/apng2gif.exe");
+            ps.FileName = Path.Combine(Application.streamingAssetsPath, "CutInImageRecorder/apng2gif/apng2gif.exe");
             ps.Arguments = inputPath + " " + outputPath;
 
             var p = Process.Start(ps);

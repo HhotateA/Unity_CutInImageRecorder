@@ -12,7 +12,7 @@ namespace HhotateA.ImageRecorder
         public static void Generate(string inputPath, string outputPath, int fps = 30, bool loop = true)
         {
             var ps = new ProcessStartInfo();
-            ps.FileName = Path.Combine(Application.dataPath, "HhotateA_Assets/CutInImageRecorder/libwebp/img2webp.exe");
+            ps.FileName = Path.Combine(Application.streamingAssetsPath, "CutInImageRecorder/libwebp/img2webp.exe");
             ps.Arguments = loop ? "-loop 0" : "-loop 1";
             
             string[] pngs = Directory.GetFiles(inputPath, "*.png",SearchOption.TopDirectoryOnly);

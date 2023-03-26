@@ -9,7 +9,7 @@ namespace HhotateA.ImageRecorder
         public static void Generate(string inputPath, string outputPath, int fps = 30, bool loop = true)
         {
             var ps = new ProcessStartInfo();
-            ps.FileName = Path.Combine(Application.dataPath, "HhotateA_Assets/CutInImageRecorder/apngasm/apngasm.exe");
+            ps.FileName = Path.Combine(Application.streamingAssetsPath, "CutInImageRecorder/apngasm/apngasm.exe");
             ps.Arguments = outputPath + " " + Path.Combine(inputPath, "*.png");
             ps.Arguments += " 1 " + fps.ToString();
             ps.Arguments += loop ? " -l0" : " -l1";
